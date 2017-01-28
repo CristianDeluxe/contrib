@@ -63,6 +63,11 @@ ul.groupview, ul.groupview ul {
     display: inline;
 }
 
+.dropdown-menu>.date-range{
+    position: absolute;
+    right: 1px;
+}
+
 img {
     outline: 2px solid transparent;
 }
