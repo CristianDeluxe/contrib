@@ -67,12 +67,12 @@
                 <TMPL_LOOP NAME="GLOBALCATS">
                   <li>
                     <a tabindex="-1" href="#"><TMPL_VAR NAME="NAME"></a>
-                    <div class="pull-right">
+                    <span class="date-range">
                         <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLDAY">" class="label label-default">Day</a>
                         <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLWEEK">" class="label label-default">Week</a>
                         <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLMONTH">" class="label label-default">Month</a>
                         <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLYEAR">" class="label label-default">Year</a>
-                    </div>
+                    </span>
                   </li>
                 </TMPL_LOOP>
               </ul>

@@ -52,6 +52,15 @@ ul.groupview, ul.groupview ul {
     height: auto;
     max-height: 100vh;
     overflow-x: scroll;
+    width: 100vh;
+}
+
+.dropdown-menu>li {
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a {
+    display: inline;
 }
 
 img {
