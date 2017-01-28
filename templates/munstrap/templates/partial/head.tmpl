@@ -63,24 +63,16 @@
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
-              <ul class="dropdown-menu multi-level">
+              <ul class="dropdown-menu">
                 <TMPL_LOOP NAME="GLOBALCATS">
-                  <li class="dropdown-submenu">
+                  <li>
                     <a tabindex="-1" href="#"><TMPL_VAR NAME="NAME"></a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a tabindex="-1" href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLDAY">">Day</a>
-                      </li>
-                      <li>
-                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLWEEK">">Week</a>
-                      </li>
-                      <li>
-                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLMONTH">">Month</a>
-                      </li>
-                      <li>
-                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLYEAR">">Year</a>
-                      </li>
-                    </ul>
+                    <div class="pull-right">
+                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLDAY">" class="label label-default">Day</a>
+                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLWEEK">" class="label label-default">Week</a>
+                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLMONTH">" class="label label-default">Month</a>
+                        <a href="<TMPL_VAR NAME="R_PATH">/<TMPL_VAR NAME="URLYEAR">" class="label label-default">Year</a>
+                    </div>
                   </li>
                 </TMPL_LOOP>
               </ul>
