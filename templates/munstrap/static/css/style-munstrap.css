@@ -96,19 +96,19 @@ ul.groupview, ul.groupview ul {
 }
 
 img {
-    border: 2px solid transparent;
+    outline: 2px solid transparent;
 }
 
 img.warn {
-    border: 2px solid #8a6d3b;
+    outline: 2px solid #8a6d3b;
 }
 
 img.crit {
-    border: 2px solid #a94442;
+    outline: 2px solid #a94442;
 }
 
 img.unkn {
-    border: 2px solid #ffaa00;
+    outline: 2px solid #ffaa00;
 }
 
 .text-critical {
